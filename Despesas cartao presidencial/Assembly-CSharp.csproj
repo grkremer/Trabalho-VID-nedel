@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Fornecedor.cs" />
+     <None Include="Assets\Resources\MapSessionConfig.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -291,6 +292,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.microsoft.maps.unity@0.11.2\Plugins\Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -735,6 +739,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity.SupportingScripts">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.SupportingScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

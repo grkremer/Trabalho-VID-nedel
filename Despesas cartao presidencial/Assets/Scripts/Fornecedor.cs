@@ -23,7 +23,7 @@ public class Fornecedor
     {
         float valor;
         string tipo;
-        DateTime data;
+        //DateTime data;
     }
 }
 
