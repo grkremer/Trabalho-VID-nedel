@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,9 +36,51 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\MapPinner.cs" />
      <Compile Include="Assets\Scripts\Fornecedor.cs" />
+     <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\Text3DShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\MRTK\StandardAssets\License.txt" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\InstancedColored.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\MixedRealityTextMeshProSprite.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\InvisibleShader.shader" />
      <None Include="Assets\Resources\MapSessionConfig.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Version.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\MRTK\StandardAssets\Textures\Oculus lineart attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\MRTK\StandardAssets\Fonts\LICENSE.txt" />
+     <None Include="Assets\MRTK\Providers\License.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\MixedRealityStandard.shader" />
+     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\MRTK\Services\Version.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\MRTK\Services\License.txt" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\DepthBufferPostProcess.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\MRTK\StandardAssets\Shaders\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\MRTK\Providers\Version.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -285,17 +327,17 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Maps.Unity">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.microsoft.maps.unity@0.11.2\Plugins\Microsoft.Maps.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.microsoft.maps.unity@0.11.2\Plugins\Microsoft.Maps.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -663,9 +705,6 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -678,8 +717,56 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity.SupportingScripts">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.SupportingScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -690,29 +777,17 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -720,11 +795,11 @@
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -732,23 +807,234 @@
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Maps.Unity.SupportingScripts">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.SupportingScripts.dll</HintPath>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
+      <Project>{ddf50a08-e20e-146f-f09d-7f223941a8c6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
+      <Project>{cef1793a-d11c-5f7e-bfe0-a41476ef6232}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
+      <Project>{1e4d67da-18a2-4b56-df64-766722b0dc50}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
+      <Project>{83ff445a-b4bd-8003-2a79-22a584af1d34}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
+      <Project>{db14b6fe-16f2-dba3-da5e-d0fcf0f718b5}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
+      <Project>{3fea2415-0bfd-c2df-d5e1-40f3441bfdfc}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
+      <Project>{b22001a9-1f36-05ed-f2f2-be4b97c99a8a}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
+      <Project>{085ef769-7f6f-3bc1-c450-0035559c115b}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
+      <Project>{985a4d43-e0f8-5f39-afd0-e79e586931a7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
+      <Project>{ee20c666-b640-7fdf-a447-7aab0a27a314}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
+      <Project>{904c6baf-8acb-79f4-f9d1-1a07f81759fe}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
+      <Project>{882206a2-e4b5-58f6-285f-4f7d031db298}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
+      <Project>{12e95488-0044-f8b4-3613-161b064e4714}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
+      <Project>{0756de3f-6946-b0a5-a851-f72b2186dd0e}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
+      <Project>{c1b03e66-c0ca-2ed3-1015-13805df9b27d}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
+      <Project>{8f8ca733-c13d-2fee-f3ae-4cdb07b6e1cb}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
+      <Project>{d204e137-b72f-13a4-2314-dc1f05a23019}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
+      <Project>{5e672a07-c3bb-004a-0d70-f08d9dfc29cd}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
+      <Project>{2fbf9afb-5547-3c07-5734-4bbaa5b6593f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
+      <Project>{4576818f-f7bc-6001-40e7-a838db8a2d8b}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
+      <Project>{fde9d613-9bfe-5998-4920-5d7f1c961f67}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
+      <Project>{f94d69b9-1434-f1ea-1079-256ff2d47ee1}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
+      <Project>{5c4352e3-0fda-9a49-423d-58e347d7cd61}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
+      <Project>{85f7ace5-c857-6431-2b75-e96ca06646fc}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
+      <Project>{2f3aa959-b36d-b537-a1b5-db246e839bfb}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
+      <Project>{2e4b6e8c-a65d-1bad-932d-e245942b20f2}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
+      <Project>{c4cbd51c-f1bb-87cf-1fad-df87cbbb979a}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.csproj">
+      <Project>{aa2144d2-0439-7cfd-180a-aa24a47ba1b4}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
+      <Project>{808004ef-96d8-874a-0791-2aad155ce2cd}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
+      <Project>{5a31a477-816d-5846-edc1-f8206d5c6b50}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
+      <Project>{7a17e033-0cbc-4175-fc09-08971f849680}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
+      <Project>{ab135170-80c1-2fbe-55d7-aa2cd199c88f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
+      <Project>{b069c61c-6160-52bd-286a-c523d6bf8913}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
+      <Project>{0dd538e4-437d-f9b9-3e20-6a3165e3215d}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
+      <Project>{d6775f74-2dcd-37ce-1875-005701e309af}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.csproj">
+      <Project>{0c66a4e7-277b-4aa8-7448-c2626942fbca}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
+      <Project>{5f07babd-5dc5-f891-44c9-0f288ec9980f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
+      <Project>{74c7fd67-4b49-7667-9df7-76df01b1ac69}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
+      <Project>{13e51aae-4ea6-9b39-e204-941fa3e06d1d}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
+      <Project>{ca59cf1a-4cf3-a599-afc6-808ae21151d6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
+      <Project>{eaa4219a-5e7a-ee56-b5c2-1febac810a8f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
+      <Project>{c3ee0cb0-1114-47c1-1127-180bc630b4b5}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
+      <Project>{4f2f41e0-6ee0-c62f-8ac3-ac108de54b0f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -11,32 +11,41 @@ public class MapPinner : MonoBehaviour
 {
     public MapPinLayer pinLayer;
     public MapPin pin;
-
     public MapRenderer mapRenderer;
 
-    //public LatLon location;
-
     private Dictionary<string, Fornecedor> dados;
-
-    // Start is called before the first frame update
     void Start()
     {
         //MapPin.UpdateScales(new List<MapPin>(){mapPin}, mapRenderer);
         dados = importaDados("Dados_processados_COMPLETO_CHEIO.csv");
-        foreach(Fornecedor fornecedor in dados.Values) {
-            var mapPin = Instantiate(pin);
-            mapPin.Location = new LatLon(fornecedor.latitude, fornecedor.longitude);
-            pinLayer.MapPins.Add(mapPin);
-        }
+        plotFornecedores();
     }
-
-    // Update is called once per frame
     void Update()
     {
         
     }
 
-    Dictionary<string, Fornecedor> importaDados(string arquivo){
+    private void plotFornecedores() {
+        float min = 0f, max = float.MinValue;
+        foreach(Fornecedor fornecedor in dados.Values) {
+            float soma = fornecedor.getSomaDespesas();
+            max = Math.Max(soma, max);
+        }
+        float tamanhoMinimo = 0.003f, tamanhoMaximo = 0.03f;
+        foreach(Fornecedor fornecedor in dados.Values) {
+            var mapPin = Instantiate(pin);
+            float tamanho = Math.Clamp(normaliza(fornecedor.getSomaDespesas(), min, max)*tamanhoMaximo, tamanhoMinimo, tamanhoMaximo);
+            mapPin.ScaleCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(tamanho, tamanho));
+            mapPin.Location = new LatLon(fornecedor.latitude, fornecedor.longitude);
+            pinLayer.MapPins.Add(mapPin);
+        }
+    }
+
+    private float normaliza(float valor, float min, float max) {
+        return (valor - min) / (max - min);
+    }
+
+    private Dictionary<string, Fornecedor> importaDados(string arquivo){
         Dictionary<string, Fornecedor> dados = new Dictionary<string,Fornecedor>();
         
         StreamReader strReader = new StreamReader("Assets/" + arquivo);
@@ -44,7 +53,7 @@ public class MapPinner : MonoBehaviour
         Dictionary<string, int> col = leNomesColuna(line);
         for(line = strReader.ReadLine(); line != null; line = strReader.ReadLine()) {
             string[] itens = line.Split('$');
-            Debug.Log(line);
+            //Debug.Log(line);
 
             float valor = float.Parse(itens[col["VALOR"]]);
             string tipo = itens[col["TIPO"]];

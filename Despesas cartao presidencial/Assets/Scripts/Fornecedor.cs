@@ -44,6 +44,13 @@ public class Fornecedor
         despesas.Add(despesa);
     }
 
+    public float getSomaDespesas() {
+        float soma = 0;
+        foreach(Despesa despesa in despesas)
+            soma += despesa.valor;
+        return soma;
+    }
+
     public struct Despesa
     {
         public float valor;
