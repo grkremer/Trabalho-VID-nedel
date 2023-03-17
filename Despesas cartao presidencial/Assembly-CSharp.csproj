@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\MapPinner.cs" />
-     <Compile Include="Assets\Scripts\Fornecedor.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Fornecedor.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -720,6 +720,9 @@
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
@@ -747,11 +750,23 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity.SupportingScripts">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.Maps.Unity.SupportingScripts.dll</HintPath>
@@ -789,6 +804,9 @@
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
@@ -819,6 +837,9 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
@@ -837,39 +858,18 @@
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.ARFoundation">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
-        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
-      <Project>{ddf50a08-e20e-146f-f09d-7f223941a8c6}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
       <Project>{cef1793a-d11c-5f7e-bfe0-a41476ef6232}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
+      <Project>{ddf50a08-e20e-146f-f09d-7f223941a8c6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
       <Project>{1e4d67da-18a2-4b56-df64-766722b0dc50}</Project>
@@ -975,6 +975,10 @@
       <Project>{aa2144d2-0439-7cfd-180a-aa24a47ba1b4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
     </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
+      <Project>{c3ee0cb0-1114-47c1-1127-180bc630b4b5}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
       <Project>{808004ef-96d8-874a-0791-2aad155ce2cd}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
@@ -1023,17 +1027,13 @@
       <Project>{ca59cf1a-4cf3-a599-afc6-808ae21151d6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
-      <Project>{eaa4219a-5e7a-ee56-b5c2-1febac810a8f}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
-      <Project>{c3ee0cb0-1114-47c1-1127-180bc630b4b5}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
       <Project>{4f2f41e0-6ee0-c62f-8ac3-ac108de54b0f}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
+      <Project>{eaa4219a-5e7a-ee56-b5c2-1febac810a8f}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

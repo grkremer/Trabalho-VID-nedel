@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\StandardAssets\EditorUtilities\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\StandardAssets\EditorUtilities\OnLoadUtilities.cs" />
+     <Compile Include="Assets\MRTK\StandardAssets\EditorUtilities\AssemblyInfo.cs" />
      <None Include="Assets\MRTK\StandardAssets\EditorUtilities\MRTK.StandardAssets.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

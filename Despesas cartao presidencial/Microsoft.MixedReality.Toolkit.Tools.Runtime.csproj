@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\ControllerMappingTool\DisplayInputResult.cs" />
-     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\MixedRealityInteractionTool\MixedRealityInteractionTool.cs" />
-     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\InputFeatureUsageTool\ListInputFeatureUsages.cs" />
      <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\ControllerMappingTool\DisplayInputResult.cs" />
+     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\InputFeatureUsageTool\ListInputFeatureUsages.cs" />
+     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Tools\MixedRealityInteractionTool\MixedRealityInteractionTool.cs" />
      <None Include="Assets\MRTK\Tools\RuntimeTools\Tools\MRTK.Tools.Runtime.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

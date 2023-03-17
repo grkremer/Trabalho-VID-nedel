@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Providers\Experimental\WindowsSceneUnderstanding\Editor\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\Experimental\WindowsSceneUnderstanding\Editor\SceneUnderstandingObserverProfileInspector.cs" />
+     <Compile Include="Assets\MRTK\Providers\Experimental\WindowsSceneUnderstanding\Editor\AssemblyInfo.cs" />
      <None Include="Assets\MRTK\Providers\Experimental\WindowsSceneUnderstanding\Editor\MRTK.WSU.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

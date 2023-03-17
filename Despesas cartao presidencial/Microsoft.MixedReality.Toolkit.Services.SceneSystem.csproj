@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Services\SceneSystem\MixedRealitySceneSystem.cs" />
      <Compile Include="Assets\MRTK\Services\SceneSystem\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Services\SceneSystem\ResolveDuplicateScenesWindow.cs" />
      <Compile Include="Assets\MRTK\Services\SceneSystem\MixedRealitySceneSystemEditorOperations.cs" />
+     <Compile Include="Assets\MRTK\Services\SceneSystem\MixedRealitySceneSystem.cs" />
+     <Compile Include="Assets\MRTK\Services\SceneSystem\ResolveDuplicateScenesWindow.cs" />
      <None Include="Assets\MRTK\Services\SceneSystem\MRTK.SceneSystem.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

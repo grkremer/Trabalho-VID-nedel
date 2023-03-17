@@ -36,20 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\SourceFileInfo.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\MSBuildTools.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\PluginAssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\UnityProjectInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\CSProjectInfo.cs" />
      <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\AssemblyDefinitionInfo.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\TemplateFiles.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\TargetFramework.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\CompilationPlatformInfo.cs" />
      <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\Utilities.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\TargetFramework.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\CSProjectDependency.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\CSProjectInfo.cs" />
-     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\AssetScriptReferenceRetargeter.cs" />
      <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\ReferenceItemInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\SourceFileInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\TemplateFiles.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\MSBuildTools.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\AssetScriptReferenceRetargeter.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\PluginAssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\UnityProjectInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\MSBuild\Scripts\CSProjectDependency.cs" />
      <None Include="Assets\MRTK\Tools\MSBuild\MSBuildMRTKTemplates\Plugin.Editor.meta.template" />
      <None Include="Assets\MRTK\Tools\MSBuild\MSBuildMRTKTemplates\Plugin.iOS.meta.template" />
      <None Include="Assets\MRTK\Tools\MSBuild\MSBuildMRTKTemplates\Plugin.Android.meta.template" />

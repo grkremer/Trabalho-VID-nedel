@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Utilities\Async\Internal\SyncContextUtility.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\Async\AwaitYieldInstructions\WaitForBackgroundThread.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Async\AwaiterExtensions.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Async\Internal\AsyncCoroutineRunner.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Async\AwaitYieldInstructions\WaitForUpdate.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\Async\Internal\SyncContextUtility.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\Async\AwaitYieldInstructions\WaitForBackgroundThread.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Async\AssemblyInfo.cs" />
      <None Include="Assets\MRTK\Core\Utilities\Async\MRTK.Async.asmdef" />
     <Reference Include="UnityEngine">

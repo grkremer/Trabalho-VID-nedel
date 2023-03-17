@@ -36,15 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\SpatialAwarenessSystemInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\SceneSystemInspector.cs" />
-     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\ServiceFacadeInspector.cs" />
-     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\TeleportSystemInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\IMixedRealityServiceInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\HandJointServiceInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\FocusProviderInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\BaseMixedRealityServiceInspector.cs" />
+     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\SpatialAwarenessSystemInspector.cs" />
+     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\ServiceFacadeInspector.cs" />
+     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\TeleportSystemInspector.cs" />
+     <Compile Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\FocusProviderInspector.cs" />
      <None Include="Assets\MRTK\Core\Inspectors\ServiceInspectors\MRTK.ServiceInspectors.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

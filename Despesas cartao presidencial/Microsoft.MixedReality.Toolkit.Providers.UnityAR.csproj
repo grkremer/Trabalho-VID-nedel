@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MRTK\Providers\UnityAR\UnityARCameraSettings.cs" />
-     <Compile Include="Assets\MRTK\Providers\UnityAR\UnityARCameraSettingsProfile.cs" />
-     <Compile Include="Assets\MRTK\Providers\UnityAR\Utilities\ArEnumConversion.cs" />
      <Compile Include="Assets\MRTK\Providers\UnityAR\Definitions\ArUpdateType.cs" />
      <Compile Include="Assets\MRTK\Providers\UnityAR\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Providers\UnityAR\UnityARCameraSettingsProfile.cs" />
+     <Compile Include="Assets\MRTK\Providers\UnityAR\Utilities\ArEnumConversion.cs" />
      <Compile Include="Assets\MRTK\Providers\UnityAR\Definitions\ArTrackedPose.cs" />
      <Compile Include="Assets\MRTK\Providers\UnityAR\Definitions\ArTrackingType.cs" />
      <None Include="Assets\MRTK\Providers\UnityAR\MRTK.UnityAR.asmdef" />
@@ -694,6 +694,9 @@
     </Reference>
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation">
+        <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>C:\Users\MarcoAntonio\Documents\GitHub\Trabalho-VID-nedel\Despesas cartao presidencial\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>

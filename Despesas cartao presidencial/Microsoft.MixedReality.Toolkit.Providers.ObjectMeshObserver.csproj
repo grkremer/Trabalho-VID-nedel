@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\SpatialObjectMeshObserverProfileInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\RoomFileFormat\RoomFileSerializer.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\SpatialObjectMeshObserver.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\SpatialObjectMeshObserverProfile.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\RoomFileFormat\RoomFileImporter.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\SpatialObjectMeshObserverProfile.cs" />
      <None Include="Assets\MRTK\Core\Providers\ObjectMeshObserver\MRTK.ObjectMeshObserver.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\KeyBindingInspector.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\MixedRealityInputSimulationProfileInspector.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\InputSimulationWindow.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\MixedRealityInputSimulationProfileInspector.cs" />
      <None Include="Assets\MRTK\Core\Providers\InputSimulation\Editor\MRTK.InputSimulation.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

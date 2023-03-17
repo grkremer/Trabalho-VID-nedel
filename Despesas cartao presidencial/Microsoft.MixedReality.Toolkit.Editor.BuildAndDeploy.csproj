@@ -36,17 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UnityPlayerBuildTools.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\MixedRealityBuildPreferences.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\BuildInfoExtensions.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UwpPlayerBuildTools.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\IBuildInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UwpBuildInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UnityPlayerBuildTools.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\MixedRealityBuildPreferences.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\BuildInfo.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\BuildDeployPreferences.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UwpAppxBuildTools.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\IBuildInfo.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UwpBuildDeployPreferences.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\UwpBuildInfo.cs" />
      <None Include="Assets\MRTK\Core\Utilities\BuildAndDeploy\MRTK.BuildAndDeploy.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

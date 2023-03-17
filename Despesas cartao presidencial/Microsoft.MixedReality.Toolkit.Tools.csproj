@@ -36,20 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Tools\BuildWindow\Arm64Workaround.cs" />
      <Compile Include="Assets\MRTK\Tools\ReserializeAssetsUtility\ReserializeAssetsUtility.cs" />
-     <Compile Include="Assets\MRTK\Tools\Toolbox\MixedRealityToolboxWindow.cs" />
      <Compile Include="Assets\MRTK\Tools\DependencyWindow\DependencyWindow.cs" />
-     <Compile Include="Assets\MRTK\Tools\ExtensionServiceCreator\ExtensionServiceCreator.cs" />
-     <Compile Include="Assets\MRTK\Tools\MigrationWindow\MigrationWindow.cs" />
-     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Inspectors\DisplayInputResultInspector.cs" />
-     <Compile Include="Assets\MRTK\Tools\BuildWindow\BuildDeployWindow.cs" />
-     <Compile Include="Assets\MRTK\Tools\OptimizeWindow\MixedRealityOptimizeWindow.cs" />
-     <Compile Include="Assets\MRTK\Tools\ScreenshotUtility\ScreenshotUtility.cs" />
      <Compile Include="Assets\MRTK\Tools\TextureCombinerWindow\TextureCombinerWindow.cs" />
-     <Compile Include="Assets\MRTK\Tools\ExtensionServiceCreator\ExtensionServiceWizard.cs" />
+     <Compile Include="Assets\MRTK\Tools\Toolbox\MixedRealityToolboxWindow.cs" />
      <Compile Include="Assets\MRTK\Tools\AssetSwapUtility\AssetSwapUtility.cs" />
+     <Compile Include="Assets\MRTK\Tools\BuildWindow\Arm64Workaround.cs" />
      <Compile Include="Assets\MRTK\Tools\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Tools\ScreenshotUtility\ScreenshotUtility.cs" />
+     <Compile Include="Assets\MRTK\Tools\RuntimeTools\Inspectors\DisplayInputResultInspector.cs" />
+     <Compile Include="Assets\MRTK\Tools\MigrationWindow\MigrationWindow.cs" />
+     <Compile Include="Assets\MRTK\Tools\ExtensionServiceCreator\ExtensionServiceWizard.cs" />
+     <Compile Include="Assets\MRTK\Tools\OptimizeWindow\MixedRealityOptimizeWindow.cs" />
+     <Compile Include="Assets\MRTK\Tools\ExtensionServiceCreator\ExtensionServiceCreator.cs" />
+     <Compile Include="Assets\MRTK\Tools\BuildWindow\BuildDeployWindow.cs" />
      <None Include="Assets\MRTK\Tools\ExtensionServiceCreator\Templates\ExtensionInterfaceTemplate.txt" />
      <None Include="Assets\MRTK\Tools\ExtensionServiceCreator\Templates\ExtensionConstructorTemplate.txt" />
      <None Include="Assets\MRTK\Tools\ExtensionServiceCreator\Templates\ExtensionInspectorTemplate.txt" />

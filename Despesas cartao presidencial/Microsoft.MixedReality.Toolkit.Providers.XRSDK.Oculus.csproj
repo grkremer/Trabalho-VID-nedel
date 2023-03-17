@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\MRTK-Quest\Scripts\Input\Controllers\OculusHand.cs" />
      <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\Controllers\OculusXRSDKTouchController.cs" />
      <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\OculusXRSDKDeviceManager.cs" />
      <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\OculusXRSDKDeviceManagerProfile.cs" />
+     <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Providers\Oculus\XRSDK\MRTK-Quest\Scripts\Input\Controllers\OculusHand.cs" />
      <None Include="Assets\MRTK\Providers\Oculus\XRSDK\MRTK.Oculus.asmdef" />
      <None Include="Assets\MRTK\Providers\Oculus\XRSDK\MRTK-Quest\License.txt" />
      <None Include="Assets\MRTK\Providers\Oculus\XRSDK\MRTK-Quest\Art\Shaders\RimOutline.shader" />

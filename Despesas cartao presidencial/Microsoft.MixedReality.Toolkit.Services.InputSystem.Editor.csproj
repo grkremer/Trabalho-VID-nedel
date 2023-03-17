@@ -38,8 +38,8 @@
   <ItemGroup>
      <Compile Include="Assets\MRTK\Services\InputSystem\Editor\NearInteractionTouchableInspector.cs" />
      <Compile Include="Assets\MRTK\Services\InputSystem\Editor\MixedRealityInputModuleInspector.cs" />
-     <Compile Include="Assets\MRTK\Services\InputSystem\Editor\MixedRealityCanvasInspector.cs" />
      <Compile Include="Assets\MRTK\Services\InputSystem\Editor\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Services\InputSystem\Editor\MixedRealityCanvasInspector.cs" />
      <Compile Include="Assets\MRTK\Services\InputSystem\Editor\NearInteractionTouchableVolumeInspector.cs" />
      <None Include="Assets\MRTK\Services\InputSystem\Editor\MRTK.InputSystem.Editor.asmdef" />
     <Reference Include="UnityEngine">

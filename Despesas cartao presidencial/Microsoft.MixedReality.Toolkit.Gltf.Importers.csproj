@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\GltfAssetImporter.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\GltfEditorImporter.cs" />
-     <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\GlbAssetImporter.cs" />
      <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\GltfAssetImporter.cs" />
+     <Compile Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\GlbAssetImporter.cs" />
      <None Include="Assets\MRTK\Core\Utilities\Gltf\Serialization\Importers\MRTK.Gltf.Importers.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

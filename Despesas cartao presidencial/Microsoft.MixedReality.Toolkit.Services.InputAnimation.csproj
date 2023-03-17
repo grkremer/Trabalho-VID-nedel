@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputAnimationSerializationUtils.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\IMixedRealityInputRecordingService.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\MixedRealityInputRecordingProfile.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputRecordingBuffer.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputRecordingService.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputAnimation.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputAnimationSerializationUtils.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputAnimation\InputRecordingBuffer.cs" />
      <None Include="Assets\MRTK\Core\Providers\InputAnimation\MRTK.InputAnimation.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

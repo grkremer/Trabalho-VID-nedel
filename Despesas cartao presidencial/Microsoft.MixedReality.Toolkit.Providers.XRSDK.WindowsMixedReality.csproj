@@ -36,17 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\WindowsMixedRealitySpatialMeshObserver.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\WindowsMixedRealityDeviceManager.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\WindowsMixedRealityXRSDKGGVHand.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\WindowsMixedRealityXRSDKMotionController.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\WindowsMixedRealityEyeGazeDataProvider.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\WindowsMixedRealityXRSDKArticulatedHand.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\WindowsMixedRealitySpatialMeshObserver.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\BaseWindowsMixedRealityXRSDKSource.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\WindowsMixedRealityCameraSettings.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\XRSDKWindowsMixedRealityUtilitiesProvider.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\HPMotionController.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\Controllers\WindowsMixedRealityXRSDKArticulatedHand.cs" />
      <None Include="Assets\MRTK\Providers\WindowsMixedReality\XRSDK\MRTK.WMR.XRSDK.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

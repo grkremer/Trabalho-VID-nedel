@@ -37,15 +37,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MRTK\Providers\XRSDK\LoaderHelpers.cs" />
+     <Compile Include="Assets\MRTK\Providers\XRSDK\XRSDKSubsystemHelpers.cs" />
+     <Compile Include="Assets\MRTK\Providers\XRSDK\FlagsExtensions.cs" />
+     <Compile Include="Assets\MRTK\Providers\XRSDK\GenericXRSDKCameraSettings.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\GenericXRSDKSpatialMeshObserver.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\XRSDKDeviceManager.cs" />
-     <Compile Include="Assets\MRTK\Providers\XRSDK\XRSDKSubsystemHelpers.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\XRSDKBoundarySystem.cs" />
-     <Compile Include="Assets\MRTK\Providers\XRSDK\FlagsExtensions.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\Controllers\GenericXRSDKController.cs" />
      <Compile Include="Assets\MRTK\Providers\XRSDK\CustomUsages.cs" />
-     <Compile Include="Assets\MRTK\Providers\XRSDK\GenericXRSDKCameraSettings.cs" />
      <None Include="Assets\MRTK\Providers\XRSDK\MRTK.XRSDK.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

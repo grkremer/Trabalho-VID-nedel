@@ -14,15 +14,65 @@ public class MapPinner : MonoBehaviour
     public MapRenderer mapRenderer;
 
     private Dictionary<string, Fornecedor> dados;
+    private Double lat;
+    private Double lon;
+    private Single zoom;
+    private Single zoomAlvo;
+    private Double latAlvo;
+    private Double lonAlvo;
+
     void Start()
     {
         //MapPin.UpdateScales(new List<MapPin>(){mapPin}, mapRenderer);
         dados = importaDados("Dados_processados_COMPLETO_CHEIO.csv");
         plotFornecedores();
+        lat = mapRenderer.Center.LatitudeInDegrees;
+        lon = mapRenderer.Center.LongitudeInDegrees;
+        zoom = mapRenderer.ZoomLevel;
+        zoomAlvo = zoom;
+        latAlvo = lat;
+        lonAlvo = lon;
     }
     void Update()
-    {
+    {   
+
+        if(Input.GetKeyDown(KeyCode.N))
+            zoomAlvo = zoom - 0.4f;
+        if(Input.GetKeyDown(KeyCode.M))
+            zoomAlvo = zoom + 0.4f;
+        mapRenderer.ZoomLevel = zoom;
+        if(Input.GetKeyDown(KeyCode.I))
+            latAlvo =  lat + 100/(zoom*zoom*zoom);
+        if(Input.GetKeyDown(KeyCode.J))
+            lonAlvo = lon - 100/(zoom*zoom*zoom);
+        if(Input.GetKeyDown(KeyCode.K))
+            latAlvo = lat - 100/(zoom*zoom*zoom);
+        if(Input.GetKeyDown(KeyCode.L))
+            lonAlvo = lon + 100/(zoom*zoom*zoom);
+
+        if (Math.Abs(zoom - zoomAlvo) < 0.005f + (zoom - zoomAlvo)/4)
+            zoom = zoomAlvo;
+        else
+            if (zoom > zoomAlvo)
+                zoom -= 0.005f + (zoom - zoomAlvo)/4;
+            else if (zoom < zoomAlvo)
+                zoom += 0.005f + ( zoomAlvo - zoom)/4;
         
+        if (Math.Abs(lat - latAlvo) < 5/(zoom*zoom*zoom))
+            lat = latAlvo;
+        else
+            if (lat > latAlvo)
+                lat -= 5/(zoom*zoom*zoom);
+            else if (lat < latAlvo)
+                lat += 5/(zoom*zoom*zoom);
+        if (Math.Abs(lon - lonAlvo) < 5/(zoom*zoom*zoom))
+            lon = lonAlvo;
+        else
+            if (lon > lonAlvo)
+                lon -= 5/(zoom*zoom*zoom);
+            else if (lon < lonAlvo)
+                lon += 5/(zoom*zoom*zoom);
+        mapRenderer.Center = new LatLon(lat, lon);
     }
 
     private void plotFornecedores() {
@@ -31,11 +81,11 @@ public class MapPinner : MonoBehaviour
             float soma = fornecedor.getSomaDespesas();
             max = Math.Max(soma, max);
         }
-        float tamanhoMinimo = 0.003f, tamanhoMaximo = 0.03f;
+        float tamanhoMinimo = 0.02f, tamanhoMaximo = 0.2f;
         foreach(Fornecedor fornecedor in dados.Values) {
             var mapPin = Instantiate(pin);
             float tamanho = Math.Clamp(normaliza(fornecedor.getSomaDespesas(), min, max)*tamanhoMaximo, tamanhoMinimo, tamanhoMaximo);
-            mapPin.ScaleCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(tamanho, tamanho));
+            mapPin.ScaleCurve = new AnimationCurve(new Keyframe(tamanho, tamanho), new Keyframe(tamanho, tamanho));
             mapPin.Location = new LatLon(fornecedor.latitude, fornecedor.longitude);
             pinLayer.MapPins.Add(mapPin);
         }

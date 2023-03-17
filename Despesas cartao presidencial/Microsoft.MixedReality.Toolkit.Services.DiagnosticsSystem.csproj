@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\VisualProfilerControl.cs" />
      <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\DiagnosticsSystemVoiceControls.cs" />
      <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\MixedRealityToolkitVisualProfiler.cs" />
      <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\MixedRealityDiagnosticsSystem.cs" />
+     <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\VisualProfilerControl.cs" />
      <Compile Include="Assets\MRTK\Services\DiagnosticsSystem\AssemblyInfo.cs" />
      <None Include="Assets\MRTK\Services\DiagnosticsSystem\MRTK.DiagnosticsSystem.asmdef" />
     <Reference Include="UnityEngine">

@@ -37,8 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MRTK\Core\Extensions\EditorClassExtensions\ScriptableObjectExtensions.cs" />
-     <Compile Include="Assets\MRTK\Core\Extensions\EditorClassExtensions\EditorLayerExtensions.cs" />
      <Compile Include="Assets\MRTK\Core\Extensions\EditorClassExtensions\AssemblyInfo.cs" />
+     <Compile Include="Assets\MRTK\Core\Extensions\EditorClassExtensions\EditorLayerExtensions.cs" />
      <None Include="Assets\MRTK\Core\Extensions\EditorClassExtensions\MRTK.Editor.ClassExtensions.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

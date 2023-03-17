@@ -36,28 +36,28 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedMotionControllerButtonState.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedHandUtils.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedArticulatedHandPoses.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedControllerDataProvider.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedMotionControllerDataProvider.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\InputSimulationHelpGuide.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedGestureHand.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\ManualCameraControl.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\InputSimulationEnum.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\IInputSimulationService.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\MixedRealityInputSimulationProfile.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\IMixedRealityInputPlaybackService.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedMotionControllerButtonState.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedHandUtils.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedControllerDataProvider.cs" />
+     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\ManualCameraControl.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedHand.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\KeyBinding.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\BaseInputSimulationService.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\IInputSimulationService.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedMotionController.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\InputPlaybackService.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\MouseRotationProvider.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedHandDataProvider.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\SimulatedArticulatedHand.cs" />
      <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\InputSimulationService.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\MixedRealityInputSimulationProfile.cs" />
-     <Compile Include="Assets\MRTK\Core\Providers\InputSimulation\IMixedRealityInputPlaybackService.cs" />
      <None Include="Assets\MRTK\Core\Providers\InputSimulation\MRTK.InputSimulation.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

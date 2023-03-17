@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\Providers\LeapMotion\LeapMotionDeviceManagerProfile.cs" />
      <Compile Include="Assets\MRTK\Providers\LeapMotion\Definitions\LeapControllerOrientation.cs" />
-     <Compile Include="Assets\MRTK\Providers\LeapMotion\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\LeapMotion\LeapMotionDeviceManager.cs" />
+     <Compile Include="Assets\MRTK\Providers\LeapMotion\LeapMotionDeviceManagerProfile.cs" />
+     <Compile Include="Assets\MRTK\Providers\LeapMotion\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\LeapMotion\LeapMotionArticulatedHand.cs" />
      <Compile Include="Assets\MRTK\Providers\LeapMotion\Definitions\LeapVRDeviceOffsetMode.cs" />
      <None Include="Assets\MRTK\Providers\LeapMotion\MRTK.LeapMotion.asmdef" />

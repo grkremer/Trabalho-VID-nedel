@@ -37,18 +37,18 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityControllerModelProvider.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\Definitions\ProjectionOverride.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityHandRecorder.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\InputHandlers\HPMotionControllerInputHandler.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\AssemblyInfo.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\Definitions\HolographicDepthReprojectionMethod.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityUtilities.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityCameraSettingsProfile.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\BaseWindowsMixedRealityCameraSettings.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityReprojectionUpdater.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\Extensions\WindowsExtensions.cs" />
-     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityHandMeshProvider.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityArticulatedHandDefinition.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\Definitions\ProjectionOverride.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityHandRecorder.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityCameraSettingsProfile.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityReprojectionUpdater.cs" />
+     <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\WindowsMixedRealityHandMeshProvider.cs" />
      <Compile Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\Definitions\IWindowsMixedRealityUtilitiesProvider.cs" />
      <None Include="Assets\MRTK\Providers\WindowsMixedReality\Shared\MRTK.WMR.Shared.asmdef" />
     <Reference Include="UnityEngine">
