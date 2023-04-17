@@ -4,4 +4,4 @@ Nem todos os arquivos necessários para rodar o projeto da Unity estão aqui. Pa
 
 - [Sprint 3](https://drive.google.com/file/d/1PlUe1oYE2QXl5LCbwqmBYMY4vGB0xHEi/view)
 
-- Sprint 4 (O projeto ficou no lab, vamos fazer upload e atualizar com o link aqui o quanto antes!)
+- [Sprint 4](https://drive.google.com/file/d/1NAijn2zXxGOht6aHZfne_eaVej4keL_v/view)
